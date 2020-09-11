@@ -1,0 +1,10 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": "82",
+    "database": "decoration",
+    "connection_size": 5,
+    "username": "postgres",
+    "password": "wang0702"
+  }
+}
