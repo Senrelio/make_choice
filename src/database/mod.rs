@@ -1,3 +1,5 @@
+mod task;
+
 use sqlx::PgPool;
 use sqlx::postgres::PgPoolOptions;
 use crate::setting::Setting;

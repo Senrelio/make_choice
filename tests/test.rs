@@ -1,3 +1,5 @@
+use sqlx::sqlite::SqlitePoolOptions;
+
 use make_choice::database;
 
 #[async_std::test]
@@ -19,4 +21,11 @@ async fn db_health_check() {
     let expect: (i64, String) = (1, String::from("song"));
     assert_eq!(expect, actual);
     sqlx::query(query_drop_table).execute(&pool).await.unwrap();
+}
+
+#[async_std::test]
+async fn sqlite_test() {
+    let pool = SqlitePoolOptions::new()
+        .max_connections(5)
+        .connect("sqlite:./src/db/app.sqlite").await.unwrap();
 }

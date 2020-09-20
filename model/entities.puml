@@ -1,0 +1,67 @@
+@startuml
+
+object song {
+    type: user
+}
+
+object wang {
+    type: user
+}
+
+object healthier {
+    type: requirement
+}
+
+object exercise_more {
+    type: requirement
+}
+object more_focus {
+type requirement
+}
+healthier -> exercise_more
+healthier -> more_focus
+
+object wake_up_earlier {
+    type: requirement
+}
+
+object meal_prep {
+    type: requirement
+}
+
+object less_time_meal_prep {
+    type: requirement
+}
+
+object bigger_space_for_meal_prep {
+    type: requirement
+}
+
+object store_more_ingredients {
+    type: requirement
+}
+
+object bigger_fridge {
+    type: practical_req
+}
+
+object fridge {
+    type: item_category
+}
+
+object hitochi_fridge {
+    type: item
+}
+
+
+exercise_more -> meal_prep
+meal_prep -> less_time_meal_prep
+meal_prep -> wake_up_earlier
+less_time_meal_prep -> bigger_space_for_meal_prep
+less_time_meal_prep -> store_more_ingredients
+store_more_ingredients -> bigger_fridge
+bigger_fridge -> fridge
+fridge -> hitochi_fridge
+
+
+@enduml
