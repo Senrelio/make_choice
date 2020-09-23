@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b70edf22-337c-4ceb-8f84-0a75b20dcdfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/entities.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/mod.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/task.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/app.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/app.sqlite-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/app.sqlite-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requirement/item.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requirement/mod.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requirement/user.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/mod.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setting.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test.rs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="UML Component" />
+        <option value="UML Object" />
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Senrelio/make_choice" />
+      </set>
+    </option>
+  </component>
+  <component name="KotlinMultiplatform">
+    <executables />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="i8l2sepl" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hKDKg2exZnMFEsnezocX6jkoqH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Object" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/make-choice.iml" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4229885" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/src/db" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://httpbin.org/anything" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="2094036d-7227-49df-b034-819ed489e4e7" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="ts" />
+                <option name="value" value="1599818844" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://httpbin.org/status/301" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://httpbin.org/get" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="show_env" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://httpbin.org/ip" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Cargo Command.Test database::task::tests::get_requirement_by_uuid">
+    <configuration name="Test database::task::tests::get_requirement_by_uuid" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package make_choice --lib database::task::tests::get_requirement_by_uuid -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test database::task::tests::new_requirement" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package make_choice --lib database::task::tests::new_requirement -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test requirement::json_array" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package make_choice --lib requirement::json_array -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test sqlite_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package make_choice --test test sqlite_test -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test task::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package make_choice --lib database::task::tests" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Test database::task::tests::get_requirement_by_uuid" />
+        <item itemvalue="Cargo Command.Test task::tests" />
+        <item itemvalue="Cargo Command.Test database::task::tests::new_requirement" />
+        <item itemvalue="Cargo Command.Test requirement::json_array" />
+        <item itemvalue="Cargo Command.Test sqlite_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="externalLinter" value="Clippy" />
+    <option name="runExternalLinterOnTheFly" value="true" />
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b70edf22-337c-4ceb-8f84-0a75b20dcdfa" name="Default Changelist" comment="" />
+      <created>1599750828096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599750828096</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1. connect to database;&#10;2. http server setup;">
+      <created>1599812826085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599812826085</updated>
+    </task>
+    <task id="LOCAL-00002" summary="insert requirement;&#10;select requirement by id;">
+      <created>1600619001590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600619001590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. connect to database;&#10;2. http server setup;" />
+    <MESSAGE value="insert requirement;&#10;select requirement by id;" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert requirement;&#10;select requirement by id;" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="191" key="#Project_Structure" timestamp="1599806697751">
+      <screen x="0" y="25" width="1920" height="1175" />
+    </state>
+    <state x="448" y="191" key="#Project_Structure/0.25.1920.1175@0.25.1920.1175" timestamp="1599806697751" />
+    <state x="960" y="531" key="#SQL_Dialects" timestamp="1599980526954">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="960" y="531" key="#SQL_Dialects/0.25.2560.1415@0.25.2560.1415" timestamp="1599980526954" />
+    <state x="1187" y="602" width="586" height="464" key="#Vim_Emulation" timestamp="1599753818277">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1187" y="602" width="586" height="464" key="#Vim_Emulation/0.25.2560.1415@0.25.2560.1415" timestamp="1599753818277" />
+    <state x="1265" y="384" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600535691794">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="586" y="301" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1175@0.25.1920.1175" timestamp="1599818024364" />
+    <state x="1265" y="384" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1415@0.25.2560.1415" timestamp="1600535691794" />
+    <state x="931" y="498" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600583177986">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="698" y="418" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1175@0.25.1920.1175" timestamp="1599816978272" />
+    <state x="931" y="498" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1415@0.25.2560.1415" timestamp="1600583177986" />
+    <state x="1686" y="385" key="#com.intellij.ide.util.MemberChooser" timestamp="1600751589733">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1686" y="385" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1415@0.25.2560.1415" timestamp="1600751589733" />
+    <state x="952" y="426" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600785138760">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="952" y="426" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1415@0.25.2560.1415" timestamp="1600785138760" />
+    <state width="2508" height="577" key="GridCell.Tab.0.bottom" timestamp="1600861650246">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="1585" height="391" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1600538131405" />
+    <state width="1870" height="393" key="GridCell.Tab.0.bottom/0.25.1920.1175@0.25.1920.1175" timestamp="1599818875131" />
+    <state width="2508" height="577" key="GridCell.Tab.0.bottom/0.25.2560.1415@0.25.2560.1415" timestamp="1600861650246" />
+    <state width="2508" height="577" key="GridCell.Tab.0.center" timestamp="1600861650245">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="1585" height="391" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1600538131404" />
+    <state width="1870" height="393" key="GridCell.Tab.0.center/0.25.1920.1175@0.25.1920.1175" timestamp="1599818875130" />
+    <state width="2508" height="577" key="GridCell.Tab.0.center/0.25.2560.1415@0.25.2560.1415" timestamp="1600861650245" />
+    <state width="2508" height="577" key="GridCell.Tab.0.left" timestamp="1600861650244">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="1585" height="391" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1600538131403" />
+    <state width="1870" height="393" key="GridCell.Tab.0.left/0.25.1920.1175@0.25.1920.1175" timestamp="1599818875130" />
+    <state width="2508" height="577" key="GridCell.Tab.0.left/0.25.2560.1415@0.25.2560.1415" timestamp="1600861650244" />
+    <state width="2508" height="577" key="GridCell.Tab.0.right" timestamp="1600861650245">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="1585" height="391" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1600538131405" />
+    <state width="1870" height="393" key="GridCell.Tab.0.right/0.25.1920.1175@0.25.1920.1175" timestamp="1599818875131" />
+    <state width="2508" height="577" key="GridCell.Tab.0.right/0.25.2560.1415@0.25.2560.1415" timestamp="1600861650245" />
+    <state width="2508" height="577" key="GridCell.Tab.1.bottom" timestamp="1600861650249">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2508" height="577" key="GridCell.Tab.1.bottom/0.25.2560.1415@0.25.2560.1415" timestamp="1600861650249" />
+    <state width="2508" height="577" key="GridCell.Tab.1.center" timestamp="1600861650248">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2508" height="577" key="GridCell.Tab.1.center/0.25.2560.1415@0.25.2560.1415" timestamp="1600861650248" />
+    <state width="2508" height="577" key="GridCell.Tab.1.left" timestamp="1600861650247">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2508" height="577" key="GridCell.Tab.1.left/0.25.2560.1415@0.25.2560.1415" timestamp="1600861650247" />
+    <state width="2508" height="577" key="GridCell.Tab.1.right" timestamp="1600861650248">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2508" height="577" key="GridCell.Tab.1.right/0.25.2560.1415@0.25.2560.1415" timestamp="1600861650248" />
+    <state width="259" height="471" key="HiddenNamespacesPopup" timestamp="1600535700614">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="259" height="471" key="HiddenNamespacesPopup/0.25.2560.1415@0.25.2560.1415" timestamp="1600535700614" />
+    <state x="1405" y="419" key="IDE.errors.dialog" timestamp="1600589124440">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1405" y="419" key="IDE.errors.dialog/0.25.2560.1415@0.25.2560.1415" timestamp="1600589124440" />
+    <state x="1564" y="382" key="PlantUMLSettings" timestamp="1599989512282">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1564" y="382" key="PlantUMLSettings/0.25.2560.1415@0.25.2560.1415" timestamp="1599989512282" />
+    <state x="721" y="327" key="SettingsEditor" timestamp="1600752407764">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="753" y="239" key="SettingsEditor/0.25.1920.1175@0.25.1920.1175" timestamp="1599818665007" />
+    <state x="721" y="327" key="SettingsEditor/0.25.2560.1415@0.25.2560.1415" timestamp="1600752407764" />
+    <state x="780" y="406" key="Vcs.Push.Dialog.v2" timestamp="1600619047501">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="780" y="406" key="Vcs.Push.Dialog.v2/0.25.2560.1415@0.25.2560.1415" timestamp="1600619047501" />
+    <state x="1150" y="631" width="376" height="272" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1600008567723">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="863" y="528" width="343" height="235" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.25.1920.1175@0.25.1920.1175" timestamp="1599809408587" />
+    <state x="1150" y="631" width="376" height="272" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.25.2560.1415@0.25.2560.1415" timestamp="1600008567723" />
+    <state x="1076" y="485" width="672" height="553" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599990907385">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="807" y="407" width="672" height="553" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.25.1920.1175@0.25.1920.1175" timestamp="1599804368950" />
+    <state x="1076" y="485" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.25.2560.1415@0.25.2560.1415" timestamp="1599990907385" />
+    <state x="1540" y="341" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600610845132">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1540" y="341" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.2560.1415@0.25.2560.1415" timestamp="1600610845132" />
+    <state x="1501" y="341" key="run.anything.popup" timestamp="1600008561950">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1501" y="341" key="run.anything.popup/0.25.2560.1415@0.25.2560.1415" timestamp="1600008561950" />
+    <state x="1585" y="349" width="838" height="676" key="search.everywhere.popup" timestamp="1600785119388">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1189" y="294" width="670" height="562" key="search.everywhere.popup/0.25.1920.1175@0.25.1920.1175" timestamp="1599817335304" />
+    <state x="1585" y="349" width="838" height="676" key="search.everywhere.popup/0.25.2560.1415@0.25.2560.1415" timestamp="1600785119388" />
+  </component>
+</project>

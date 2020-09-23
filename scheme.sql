@@ -1,18 +1,18 @@
--- noinspection SpellCheckingInspection @ extension/"uuid-ossp"
-
 create extension if not exists "uuid-ossp";
-
-create table requirements
+drop table public.docs;
+create table public.docs
 (
-    id  uuid primary key default uuid_generate_v4(),
-    doc json not null
+    id          uuid primary key not null default uuid_generate_v4(),
+    doc         jsonb            not null default '{}',
+    flag_active bool             not null default true
 );
-
-create table edges
+drop table public.edges;
+create table public.edges
 (
-    id          uuid primary key default uuid_generate_v4(),
-    tail_vertex uuid not null references requirements_target (id),
-    head_vertex uuid not null references requirements_target (id),
-    label       text not null,
-    properties  json
+    id          uuid primary key not null default uuid_generate_v4(),
+    tail_id     uuid             not null,
+    head_id     uuid             not null,
+    label       text             not null,
+    properties  jsonb            not null default '{}',
+    flag_active bool             not null default true
 );

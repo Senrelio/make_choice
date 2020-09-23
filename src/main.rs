@@ -1,8 +1,8 @@
-use make_choice::run_http_server;
-use make_choice::init_pool;
+mod config;
+mod database;
+mod graph;
 
-#[async_std::main]
-async fn main() {
-    let pool = init_pool().await;
-    run_http_server(&pool).await;
+fn main() {
+    let setting = config::Setting::init().expect("read setting error.");
+    let _pool = database::init_pool(setting.database_url());
 }

@@ -1,17 +1,22 @@
 [package]
-name = "make_choice"
+name = "node_travel"
 version = "0.1.0"
-authors = ["iwazaki <iwazaki@uta-senzen.com>"]
+authors = ["宋凡臻-80004192 <80004192@sfmail.sf-express.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-async-std = { version = "1.6.3", features = ["attributes"] }
-tide = "0.12.0"
-serde_json = "1.0.57"
-serde = "1.0.115"
-sqlx = { version = "0.4.0-beta.1", features = ["sqlite", "postgres", "uuid", "json"] }
-lazy_static = "1.4.0"
-config = "0.10.1"
-once_cell = "1.4.1"
+sqlx = { version = "0.4.0-beta.1", features = ["postgres", "json", "uuid"] }
+serde = "1.0.116"
+config = "0.9"
+anyhow = "1.0"
+rand = "0.7.3"
+
+[dependencies.serde_json]
+version = "1.0.57"
+
+[dependencies.async-std]
+version = "1.6.4"
+features = ["attributes"]
+
