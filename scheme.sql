@@ -1,12 +1,12 @@
 create extension if not exists "uuid-ossp";
-drop table public.docs;
+drop table if exists public.docs;
 create table public.docs
 (
     id          uuid primary key not null default uuid_generate_v4(),
     doc         jsonb            not null default '{}',
     flag_active bool             not null default true
 );
-drop table public.edges;
+drop table if exists public.edges;
 create table public.edges
 (
     id          uuid primary key not null default uuid_generate_v4(),
