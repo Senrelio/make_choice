@@ -4,7 +4,6 @@ use crate::graph::RawDoc;
 
 pub struct Requirement {
     id: Uuid,
-
 }
 
 impl From<RawDoc> for Requirement {

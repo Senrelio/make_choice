@@ -20,14 +20,20 @@ impl Setting {
         let mut s = Config::new();
         let env = env::var("RUN_MODE").unwrap_or_else(|_| "dev".into());
         match env.as_str() {
-            "dev" => { s.set("debug", false).expect("set mode error"); }
-            "test" => { s.set("debug", false).expect("set mode error"); }
-            _ => ()
+            "dev" => {
+                s.set("debug", false).expect("set mode error");
+            }
+            "test" => {
+                s.set("debug", false).expect("set mode error");
+            }
+            _ => (),
         };
         s.merge(File::with_name(&format!("configs/{}", env)).required(true))?;
         let setting = Setting {
             debug: env.as_str() == "dev",
-            database_url: s.get("database.url").expect("database -> url doesn't exist."),
+            database_url: s
+                .get("database.url")
+                .expect("database -> url doesn't exist."),
         };
         Ok(setting)
     }
@@ -40,6 +46,9 @@ mod tests {
     #[async_std::test]
     async fn check_database_url() {
         let setting = Setting::init().unwrap();
-        assert_eq!(setting.database_url, "postgres://postgres:postgres@localhost:5432/nodes".to_owned());
+        assert_eq!(
+            setting.database_url,
+            "postgres://postgres:postgres@localhost:5432/nodes".to_owned()
+        );
     }
 }
