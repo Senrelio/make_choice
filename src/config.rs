@@ -48,7 +48,7 @@ mod tests {
         let setting = Setting::init().unwrap();
         assert_eq!(
             setting.database_url,
-            "postgres://postgres:postgres@localhost:5432/nodes".to_owned()
+            "postgres://postgres:wang0702@47.115.30.135:5432/make_choice".to_owned()
         );
     }
 }

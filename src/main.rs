@@ -1,7 +1,5 @@
-mod config;
-mod database;
-mod graph;
-mod playground;
+use node_travel::config;
+use node_travel::database;
 
 fn main() {
     let setting = config::Setting::init().expect("read setting error.");

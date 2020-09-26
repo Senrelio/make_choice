@@ -6,13 +6,6 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-sqlx = { version = "0.4.0-beta.1", features = ["postgres", "json", "uuid"] }
-serde = "1.0.116"
-config = "0.9"
-anyhow = "1.0"
-rand = "0.7.3"
-
 [dependencies.serde_json]
 version = "1.0.57"
 
@@ -20,3 +13,10 @@ version = "1.0.57"
 version = "1.6.4"
 features = ["attributes"]
 
+[dependencies]
+sqlx = { version = "0.4.0-beta.1", features = ["postgres", "json", "uuid"] }
+serde = "1.0.116"
+config = "0.9"
+anyhow = "1.0"
+rand = "0.7.3"
+petgraph = "0.5.1"

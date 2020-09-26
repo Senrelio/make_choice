@@ -1,2 +1,2 @@
 [database]
-url = "postgres://postgres:postgres@localhost:5432/nodes"
+url = "postgres://postgres:wang0702@47.115.30.135:5432/make_choice"
